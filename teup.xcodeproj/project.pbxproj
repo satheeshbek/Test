@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52018EC51BD1078A00434D34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 52018EC41BD1078A00434D34 /* main.m */; };
+		52018EC81BD1078A00434D34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 52018EC71BD1078A00434D34 /* AppDelegate.m */; };
+		52018ECB1BD1078A00434D34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 52018ECA1BD1078A00434D34 /* ViewController.m */; };
+		52018ECE1BD1078A00434D34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52018ECC1BD1078A00434D34 /* Main.storyboard */; };
+		52018ED01BD1078A00434D34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52018ECF1BD1078A00434D34 /* Images.xcassets */; };
+		52018ED31BD1078A00434D34 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 52018ED11BD1078A00434D34 /* LaunchScreen.xib */; };
+		52018EDF1BD1078B00434D34 /* teupTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 52018EDE1BD1078B00434D34 /* teupTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		52018ED91BD1078B00434D34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 52018EB71BD1078A00434D34 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52018EBE1BD1078A00434D34;
+			remoteInfo = teup;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		52018EBF1BD1078A00434D34 /* teup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = teup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		52018EC31BD1078A00434D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52018EC41BD1078A00434D34 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		52018EC61BD1078A00434D34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		52018EC71BD1078A00434D34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		52018EC91BD1078A00434D34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		52018ECA1BD1078A00434D34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		52018ECD1BD1078A00434D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		52018ECF1BD1078A00434D34 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		52018ED21BD1078A00434D34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		52018ED81BD1078B00434D34 /* teupTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = teupTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		52018EDD1BD1078B00434D34 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52018EDE1BD1078B00434D34 /* teupTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = teupTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52018EBC1BD1078A00434D34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52018ED51BD1078B00434D34 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52018EB61BD1078A00434D34 = {
+			isa = PBXGroup;
+			children = (
+				52018EC11BD1078A00434D34 /* teup */,
+				52018EDB1BD1078B00434D34 /* teupTests */,
+				52018EC01BD1078A00434D34 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52018EC01BD1078A00434D34 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52018EBF1BD1078A00434D34 /* teup.app */,
+				52018ED81BD1078B00434D34 /* teupTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		52018EC11BD1078A00434D34 /* teup */ = {
+			isa = PBXGroup;
+			children = (
+				52018EC61BD1078A00434D34 /* AppDelegate.h */,
+				52018EC71BD1078A00434D34 /* AppDelegate.m */,
+				52018EC91BD1078A00434D34 /* ViewController.h */,
+				52018ECA1BD1078A00434D34 /* ViewController.m */,
+				52018ECC1BD1078A00434D34 /* Main.storyboard */,
+				52018ECF1BD1078A00434D34 /* Images.xcassets */,
+				52018ED11BD1078A00434D34 /* LaunchScreen.xib */,
+				52018EC21BD1078A00434D34 /* Supporting Files */,
+			);
+			path = teup;
+			sourceTree = "<group>";
+		};
+		52018EC21BD1078A00434D34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52018EC31BD1078A00434D34 /* Info.plist */,
+				52018EC41BD1078A00434D34 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52018EDB1BD1078B00434D34 /* teupTests */ = {
+			isa = PBXGroup;
+			children = (
+				52018EDE1BD1078B00434D34 /* teupTests.m */,
+				52018EDC1BD1078B00434D34 /* Supporting Files */,
+			);
+			path = teupTests;
+			sourceTree = "<group>";
+		};
+		52018EDC1BD1078B00434D34 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				52018EDD1BD1078B00434D34 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52018EBE1BD1078A00434D34 /* teup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52018EE21BD1078B00434D34 /* Build configuration list for PBXNativeTarget "teup" */;
+			buildPhases = (
+				52018EBB1BD1078A00434D34 /* Sources */,
+				52018EBC1BD1078A00434D34 /* Frameworks */,
+				52018EBD1BD1078A00434D34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = teup;
+			productName = teup;
+			productReference = 52018EBF1BD1078A00434D34 /* teup.app */;
+			productType = "com.apple.product-type.application";
+		};
+		52018ED71BD1078B00434D34 /* teupTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52018EE51BD1078B00434D34 /* Build configuration list for PBXNativeTarget "teupTests" */;
+			buildPhases = (
+				52018ED41BD1078B00434D34 /* Sources */,
+				52018ED51BD1078B00434D34 /* Frameworks */,
+				52018ED61BD1078B00434D34 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				52018EDA1BD1078B00434D34 /* PBXTargetDependency */,
+			);
+			name = teupTests;
+			productName = teupTests;
+			productReference = 52018ED81BD1078B00434D34 /* teupTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52018EB71BD1078A00434D34 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Oneteam;
+				TargetAttributes = {
+					52018EBE1BD1078A00434D34 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					52018ED71BD1078B00434D34 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 52018EBE1BD1078A00434D34;
+					};
+				};
+			};
+			buildConfigurationList = 52018EBA1BD1078A00434D34 /* Build configuration list for PBXProject "teup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52018EB61BD1078A00434D34;
+			productRefGroup = 52018EC01BD1078A00434D34 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52018EBE1BD1078A00434D34 /* teup */,
+				52018ED71BD1078B00434D34 /* teupTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52018EBD1BD1078A00434D34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52018ECE1BD1078A00434D34 /* Main.storyboard in Resources */,
+				52018ED31BD1078A00434D34 /* LaunchScreen.xib in Resources */,
+				52018ED01BD1078A00434D34 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52018ED61BD1078B00434D34 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52018EBB1BD1078A00434D34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52018ECB1BD1078A00434D34 /* ViewController.m in Sources */,
+				52018EC81BD1078A00434D34 /* AppDelegate.m in Sources */,
+				52018EC51BD1078A00434D34 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		52018ED41BD1078B00434D34 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52018EDF1BD1078B00434D34 /* teupTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		52018EDA1BD1078B00434D34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 52018EBE1BD1078A00434D34 /* teup */;
+			targetProxy = 52018ED91BD1078B00434D34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		52018ECC1BD1078A00434D34 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52018ECD1BD1078A00434D34 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		52018ED11BD1078A00434D34 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				52018ED21BD1078A00434D34 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		52018EE01BD1078B00434D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		52018EE11BD1078B00434D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52018EE31BD1078B00434D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = teup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		52018EE41BD1078B00434D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = teup/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		52018EE61BD1078B00434D34 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = teupTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/teup.app/teup";
+			};
+			name = Debug;
+		};
+		52018EE71BD1078B00434D34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = teupTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/teup.app/teup";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52018EBA1BD1078A00434D34 /* Build configuration list for PBXProject "teup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52018EE01BD1078B00434D34 /* Debug */,
+				52018EE11BD1078B00434D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52018EE21BD1078B00434D34 /* Build configuration list for PBXNativeTarget "teup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52018EE31BD1078B00434D34 /* Debug */,
+				52018EE41BD1078B00434D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		52018EE51BD1078B00434D34 /* Build configuration list for PBXNativeTarget "teupTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52018EE61BD1078B00434D34 /* Debug */,
+				52018EE71BD1078B00434D34 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52018EB71BD1078A00434D34 /* Project object */;
+}
